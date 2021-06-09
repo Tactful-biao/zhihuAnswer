@@ -1,7 +1,7 @@
 # zhihuAnswer
 对知乎上的问题回答
 
-+ mergeFile
+## 1. mergeFile
     + text1.txt 文本一
     + text2.txt 文本二
     + zhihu_mergefile.py 处理程序
@@ -10,10 +10,16 @@
 
 > A:通过python的open方法，打开两个文件，一个以读取的方式打开，另外一个以追加写入的方式打开，把读取到的内容追加写入到另一个文本当中
 
-+ zhihuEncript
+## 2. zhihuEncript
     + zhihu_num_encript.py
 
 > ![问题描述](img/Question_num_encript.png)
 [原问题链接](https://www.zhihu.com/question/463915730/answer/1930775845)
 
 > A:根据题目的规则，使用shuffle生成随机的位置码。通过位置码对原码进行加密。
+
+## 3. hiddenPhoneNumber
+![问题描述](img/hidden_phonenumber.jpeg)
+[原问题链接](https://www.zhihu.com/question/459002018/answer/1881752431)
+
+> A: 首先对用户输入对手机号进行正确性校验，如果输入正确就使用切片把后四位替换为*
