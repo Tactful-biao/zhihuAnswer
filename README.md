@@ -23,3 +23,9 @@
 [原问题链接](https://www.zhihu.com/question/459002018/answer/1881752431)
 
 > A: 首先对用户输入对手机号进行正确性校验，如果输入正确就使用切片把后四位替换为*
+
+## 4. pdfBetch
+![问题描述](img/pdfBetch.png)
+[原问题链接](https://www.zhihu.com/question/464754159/answer/1941019047)
+
+> A:使用pathlib对文件进行操作，取出当前目录下对所有pdf文件，使用pdf对文件名作为文件夹对名称，把每个pdf文件移动到相应的文件夹里面。
