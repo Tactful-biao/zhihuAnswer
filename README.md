@@ -29,3 +29,8 @@
 [原问题链接](https://www.zhihu.com/question/464754159/answer/1941019047)
 
 > A:使用pathlib对文件进行操作，取出当前目录下对所有pdf文件，使用pdf对文件名作为文件夹对名称，把每个pdf文件移动到相应的文件夹里面。
+
+## 5. wordCloud
+Q: 用python画词云图有什么办法可以把词云图画成指定的汉字形状呢？
+[原问题链接](https://www.zhihu.com/question/470816801/answer/1987453288)
+> A: 使用python的wordcloud模块生成云图，使用pygame模块生成字体图片，使用jieba对内容进行分词处理，最终生成指定汉字形状对词云图。
